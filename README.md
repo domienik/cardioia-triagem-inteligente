@@ -1,4 +1,4 @@
-# 🩺 CardioIA - Sistema Híbrido de Triagem Cardiológica
+# CardioIA - Sistema Híbrido de Triagem Cardiológica
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
@@ -8,7 +8,7 @@
 
 Este projeto é uma aplicação full-stack desenvolvida para a avaliação de Inteligência Artificial da FIAP. O objetivo é simular um portal de triagem médica que utiliza algoritmos clássicos de Machine Learning e Deep Learning para classificar riscos cardiológicos a partir de relatos textuais e exames de Eletrocardiograma (ECG).
 
-## 🚀 Arquitetura e Funcionalidades
+##  Arquitetura e Funcionalidades
 
 O projeto foi dividido em diferentes módulos de IA, conectados por um Dashboard web interativo:
 
@@ -23,7 +23,7 @@ O projeto foi dividido em diferentes módulos de IA, conectados por um Dashboard
    * Sistema de rotas protegidas (`react-router-dom`) utilizando **Context API** para simular o login do médico.
    * UI/UX com design *Obsidian Dark Mode* para conforto visual em plantões noturnos.
 
-## 🛠️ Como executar o projeto na sua máquina
+##  Como executar o projeto na sua máquina
 
 ### 1. Requisitos
 * Node.js instalado (para rodar o Front-End).
@@ -51,8 +51,8 @@ pip install tensorflow pandas scikit-learn
 python rede_neural_ecg.py
 ```
 
-👨‍💻 Autor
-Tales Ferraz de Arruda Domienikan - Graduação em Inteligência Artificial - FIAP (RM567483)
+### Autor
+Tales Domienikan - Graduação em Inteligência Artificial - FIAP (RM567483)
 
 Projeto acadêmico desenvolvido para fins de avaliação.
 
