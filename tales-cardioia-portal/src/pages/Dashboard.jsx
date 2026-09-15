@@ -1,11 +1,21 @@
+import iconeMedico from '../assets/medical.png';
+
 export default function Dashboard() {
   return (
     <div style={{ padding: '30px', minHeight: '100vh', backgroundColor: '#161618', color: '#e0e0e0', fontFamily: 'sans-serif', boxSizing: 'border-box' }}>
       
-      {/* Cabeçalho com detalhe em Roxo */}
-      <header style={{ borderBottom: '2px solid #8b5cf6', paddingBottom: '15px', marginBottom: '30px' }}>
-        <h2 style={{ color: '#c4b5fd', margin: 0, fontSize: '28px' }}>🩺 Portal Médico - CardioIA</h2>
-        <p style={{ color: '#a1a1aa', marginTop: '8px', fontSize: '15px' }}>Visão Geral do Sistema de Triagem</p>
+{/* Cabeçalho */}
+      <header style={{ display: 'flex', alignItems: 'center', borderBottom: '2px solid #8b5cf6', paddingBottom: '15px', marginBottom: '30px', position: 'relative' }}>
+        <img src={iconeMedico} alt="Ícone Médico" style={{ width: '48px', height: '48px' }} />
+        
+        <div style={{ width: '100%', textAlign: 'center', position: 'absolute', left: 0, pointerEvents: 'none' }}>
+          <h2 style={{ color: '#c4b5fd', margin: 0, fontSize: '28px', lineHeight: '1.1' }}>
+            Portal Médico - CardioIA
+          </h2>
+          <p style={{ color: '#a1a1aa', margin: '4px 0 0 0', fontSize: '15px' }}>
+            Visão Geral do Sistema de Triagem
+          </p>
+        </div>
       </header>
 
       {/* Cards de Métricas */}
