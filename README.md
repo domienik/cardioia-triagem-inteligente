@@ -23,6 +23,8 @@ O projeto foi dividido em diferentes módulos de IA, conectados por um Dashboard
    * Sistema de rotas protegidas (`react-router-dom`) utilizando **Context API** para simular o login do médico.
    * UI/UX com design *Obsidian Dark Mode* para conforto visual em plantões noturnos.
 
+  ![Dashboard do Portal Médico](./assets/frontend.JPG)
+
 ##  Como executar o projeto na sua máquina
 
 ### 1. Requisitos
