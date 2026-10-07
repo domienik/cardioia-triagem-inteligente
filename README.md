@@ -53,6 +53,8 @@ pip install tensorflow pandas scikit-learn
 python rede_neural_ecg.py
 ```
 
+📺 **Vídeo de Demonstração:** https://youtu.be/0HceKWDKa-0
+
 ### Autor
 Tales Domienikan - Graduação em Inteligência Artificial - FIAP (RM567483)
 
